@@ -217,3 +217,8 @@ div#text-table-of-contents ul li ul {
 div#text-table-of-contents .tag {
     font-size: 0.6rem;
 }
+
+/* Remove figure number */
+.figure-number {
+    display: none;
+}
