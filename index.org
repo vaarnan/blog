@@ -693,7 +693,7 @@ only bloom filters but also their applications.
 
 Maybe, I'll even talk about the math behind it in a subsequent post!
 
-* [2013-11-12 Tue] Praying to Peitho (Speaking to Convince 101) :publicSpeaking:debating:greekPhilosophy:persuasion:
+* [2013-11-12 Tue] Praying to Peitho (Speaking to Convince 101) :publicSpeaking:greekPhilosophy:
 :PROPERTIES:
 :CUSTOM_ID: public-speaking-101
 :END:
