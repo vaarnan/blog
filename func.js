@@ -1,8 +1,11 @@
 "use strict";
 const toggleTableOfContentsHidden = function () {
-    var textTOC = document.getElementById("text-table-of-contents");
-    if (textTOC != null && window.getComputedStyle(textTOC).display != null) {
-        textTOC.style.display = window.getComputedStyle(textTOC).display == "none" ? "inline" : "none";
+    const textTOC = document?.getElementById("text-table-of-contents");
+    if (textTOC !== null) {
+        const displayStyle = window?.getComputedStyle(textTOC)?.display;
+        if (displayStyle) {
+            textTOC.style.display = displayStyle === "none" ? "inline" : "none";
+        }
     }
 };
 const linkifyTableOfContents = function () {
@@ -19,11 +22,11 @@ const orgDateToHumanDate = function () {
     }
 };
 const linkifyTags = function () {
-    let tags = document.querySelectorAll(".tag");
-    for (let tagHeading of tags) {
+    const tags = Array.from(document.querySelectorAll('.tag'));
+    for (const tagHeading of tags) {
         for (let tag of tagHeading.children) {
             let tagClassName = tag.className;
-            tag.onclick = function (_) { filterByTag(tagClassName); };
+            tag.addEventListener('click', () => filterByTag(tagClassName));
         }
     }
 };
