@@ -695,7 +695,7 @@ Maybe, I'll even talk about the math behind it in a subsequent post!
 
 * [2013-11-12 Tue] Praying to Peitho (Speaking to Convince 101) :publicSpeaking:debating:greekPhilosophy:persuasion:
 :PROPERTIES:
-:CUSTOM_ID: public-speaking-101 FacebookImage: images/reasoning_and_persuasion.png
+:CUSTOM_ID: public-speaking-101
 :END:
 #+caption: Reason and Persuasion
 #+ATTR_HTML: :class responsive
