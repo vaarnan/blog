@@ -225,3 +225,12 @@ div#text-table-of-contents .tag {
 .social-icon {
     width: 1em;
 }
+
+@media (max-width: 799px) {
+    #contact-header {
+        position: fixed;
+        top: 0;
+        width: 95%;
+        background-color: white;
+    }
+}
