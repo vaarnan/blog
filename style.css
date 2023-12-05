@@ -221,3 +221,7 @@ div#text-table-of-contents .tag {
 .figure-number {
     display: none;
 }
+
+.social-icon {
+    width: 1em;
+}
