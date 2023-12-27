@@ -9,7 +9,7 @@ const toggleTableOfContentsHidden = function() {
 }
 
 const linkifyTableOfContents = function() {
-    var heading = document.querySelector("#table-of-contents h2")
+    const heading = document.querySelector("#table-of-contents h2")
     if (heading != null) {
         heading.innerHTML = '<a href="javascript:toggleTableOfContentsHidden()">Table of Contents</a>'
     }
