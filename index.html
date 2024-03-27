@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-12-05 Tue 14:36 -->
+<!-- 2024-03-27 Wed 14:56 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>vaarnan@'s blog</title>
@@ -221,6 +221,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
+<li><a href="#why-test"><span class="timestamp-wrapper"><span class="timestamp">[2024-03-27 Wed] </span></span> Test To Go <i>Faster</i>&#x2026;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="testing">testing</span>&#xa0;<span class="programming">programming</span></span></a></li>
 <li><a href="#lean-startup"><span class="timestamp-wrapper"><span class="timestamp">[2023-10-05 Thu] </span></span> The Lean Startup&#xa0;&#xa0;&#xa0;<span class="tag"><span class="startups">startups</span>&#xa0;<span class="google">google</span></span></a></li>
 <li><a href="#dive-or-die-4"><span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun] </span></span> Dive or die (4)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="diving">diving</span></span></a>
 <ul>
@@ -325,6 +326,41 @@
 </ul>
 </li>
 </ul>
+</div>
+</div>
+
+<div id="outline-container-why-test" class="outline-2">
+<h2 id="why-test"><span class="timestamp-wrapper"><span class="timestamp">[2024-03-27 Wed] </span></span> Test To Go <i>Faster</i>&#x2026;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="testing">testing</span>&#xa0;<span class="programming">programming</span></span></h2>
+<div class="outline-text-2" id="text-why-test">
+<p>
+Sometimes I dream about the problems I am facing, and sometimes those problems are technical problems; some might say I am strange like that.
+</p>
+
+<p>
+Recently, I dreamt that I was arguing with an ex-colleague, saying that "Testing my code is slowing me down" while I extolled the virtues of testing.
+</p>
+
+<p>
+I woke up in a daze and jotted down this note, combining my dream with half-asleep reasoning (Dec 3,2023):
+</p>
+
+<ul class="org-ul">
+<li>Test to go <i><b>faster</b></i></li>
+<li>Test for <i><b>confidence</b></i> - deploy to production knowing that the same bug can't break you twice. The happy path is tested so an empty list cannot be returned by a new incorrect if condition. That bug you spent 4h tracking down on thanksgiving is also tested.</li>
+<li>Test for <i><b>accumulating effects</b></i> - the tests being there bring accumulating benefits once written. Hours and days and weeks and months of the tests running with code changes, is immeasurable saved engineering effort.</li>
+</ul>
+
+<p>
+I write automated tests for my code because I don't want to test the same features again and again, I'd rather be writing new features, new bugs and new problems.
+</p>
+
+<p>
+Hope some of this helps you with the next, "Testing is slowing us down" conversation.
+</p>
+
+<p>
+<i>Comments on <a href="https://twitter.com/vaarnan">Twitter</a></i>
+</p>
 </div>
 </div>
 
@@ -3093,7 +3129,7 @@ I think So-Young's talk was a fitting conclusion to today's session about "Trigg
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Vaarnan Drolia</p>
-<p class="date">Created: 2023-12-05 Tue 14:36</p>
+<p class="date">Created: 2024-03-27 Wed 14:56</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
