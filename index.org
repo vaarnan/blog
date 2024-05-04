@@ -37,11 +37,6 @@ I do thorough reviews because I want to share the burden of those bugs with you.
 
 I previously talked about how testing makes you go /Faster/. I believe good code reviewing makes you go /Further/.
 
-#+BEGIN_QUOTE
-/Faster, Further, Forward./
-#+END_QUOTE
-
-
 Review your own code before you send it off, review other's code with kindness and thoroughness. Don't break head (often).
 
 /Comments on [[https://twitter.com/vaarnan][Twitter]]/
