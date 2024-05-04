@@ -10,6 +10,42 @@
 #+HTML_HEAD: <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 #+HTML_HEAD: <!-- HTML Meta Tags --><title>vaarnan@'s blog</title><meta name="description" content="Simplicity, Pseudorandomness and Technology"><!-- Facebook Meta Tags --><meta property="og:url" content="https://blog.vaarnan.com"><meta property="og:type" content="blog"><meta property="og:title" content="vaarnan@'s blog"><meta property="og:description" content="Simplicity, Pseudorandomness and Technology"><meta property="og:image" content="https://blog.vaarnan.com/profile.png"><!-- Twitter Meta Tags --><meta name="twitter:card" content="summary_large_image"><meta property="twitter:domain" content="blog.vaarnan.com"><meta property="twitter:url" content="https://blog.vaarnan.com/"><meta name="twitter:title" content="vaarnan@'s blog"><meta name="twitter:description" content="Simplicity, Pseudorandomness and Technology"><meta name="twitter:image" content="https://blog.vaarnan.com/profile.png">
 
+* [2024-05-04 Sat] Review Code To Go /Further/... :codeReviewing:programming:
+:PROPERTIES:
+:CUSTOM_ID: why-code-review
+:END:
+
+#+BEGIN_QUOTE
+/If you want to go fast, go alone. If you want to go far, go together/ -- African proverb
+#+END_QUOTE
+
+When you work at Google, it scars you. Not so much in the way of harm, but more like a tattoo; something one brandishes; something one is proud of - *pain turned into life experience*.
+
+
+My colleagues made me a strict and strong code reviewer. It is common for a new developer to get a review comment from me on nearly every line. I mean no harm 😄
+
+I once stole a talk from another Googler on doing good code reviews and presented it to my team. They became stricter with me in return.
+
+
+#+BEGIN_QUOTE
+/Code is read much more often than it is written, so plan accordingly/ -- [[https://devblogs.microsoft.com/oldnewthing/20070406-00/?p=27343][The Old New Thing]]
+#+END_QUOTE
+
+I have been breaking systems for a long time, and written code for an even longer time. I have seen bugs like hidden rocks on an endless stream of runnable prose.
+
+I do thorough reviews because I want to share the burden of those bugs with you. I want us to go far, not only with this piece of code today, but with the code we will write in the future.
+
+I previously talked about how testing makes you go /Faster/. I believe good code reviewing makes you go /Further/.
+
+#+BEGIN_QUOTE
+/Faster, Further, Forward./
+#+END_QUOTE
+
+
+Review your own code before you send it off, review other's code with kindness and thoroughness. Don't break head (often).
+
+/Comments on [[https://twitter.com/vaarnan][Twitter]]/
+
 * [2024-03-27 Wed] Test To Go /Faster/...     :testing:programming:
 :PROPERTIES:
 :CUSTOM_ID: why-test
