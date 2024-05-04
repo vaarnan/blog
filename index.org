@@ -184,7 +184,7 @@ That aside though, somehow it's hard to shut down our internal voice and not fee
 
 My take is way more generous to my precious and fragile, larger-than-me ego - we are all super-heroes much akin to the Marvel superheroes. My friends and me have our own successful/unsuccessful solo movies but regularly come together to build the highest grossing films ever sans mask and tights.
 
-* [2021-12-28] Coding the Brew puzzle (24th Dec)
+* [2021-12-28] Coding the Brew puzzle (24th Dec) :programming:
 :PROPERTIES:
 :CUSTOM_ID: coding-the-brew-puzzle-24th-december
 :END:
@@ -490,7 +490,7 @@ centre (not the ground level as some people might lead you to believe!).
 Be prepared for long frustrating queues though anyone visiting Tirupati
 should be steeled for that.
 
-* [2013-12-10 Tue] Bloom Filters for the Common Man (or CS Undergrad) :algorithms:dataStructures:
+* [2013-12-10 Tue] Bloom Filters for the Common Man (or CS Undergrad) :algorithms:programming:
 :PROPERTIES:
 :CUSTOM_ID: bloom-filters
 :END:
@@ -843,7 +843,7 @@ dear Aristotle.
 
 Do check it out as well!
 
-* [2013-10-31 Thu] Make your blog with Pelican :blog:markdown:pelican:python:
+* [2013-10-31 Thu] Make your blog with Pelican :blog:markdown:pelican:programming:
 :PROPERTIES:
 :CUSTOM_ID: make-your-blog-with-pelican
 :END:
@@ -1066,7 +1066,7 @@ This might let them survive through the impending onslaught and maybe even emerg
 Otherwise, it would be a wise time for them to *pivot* to something else and not bleed blue and die at the hands of the company they scorned.
 
 A final option would be to actually look to *get acquired* by other companies who "dabble" in social media and are threatened by Graph Search which will ultimately lead to the world being where it is right now, fragmented but easier to search on, with every social media company having its own "people search".
-* [2013-01-03 Thu] The Android Dvorak Bug II                 :dvorak:android:
+* [2013-01-03 Thu] The Android Dvorak Bug II                 :dvorak:android:programming:
 :PROPERTIES:
 :CUSTOM_ID: the-android-dvorak-bug-ii
 :END:
@@ -1255,7 +1255,7 @@ I would love to live in a world where a poor kid in Africa has the right to a hi
 
 Let's see how this visit benefits NUS in its own adoption of e-learning technologies as Coursera is definitely leading the way in MOOCs and there is definitely a lot more that can be done.
 
-* [2012-12-26 Wed] The Android Dvorak Bug                    :dvorak:android:
+* [2012-12-26 Wed] The Android Dvorak Bug                    :dvorak:android:programming:
 :PROPERTIES:
 :CUSTOM_ID: the-android-dvorak-bug
 :END:
@@ -1289,7 +1289,7 @@ Finally, I executed the emulator which was automatically added to the path and t
 Thus, the stage was set for me to develop a patch and more on how I did that in the [[https://blog.vaarnan.com/index.html#the-android-dvorak-bug-ii][next post]]...
 
 
-* [2012-11-15 Thu] Pumpin' my Resume Geek-Style  :liveBlog:resume:textResume:
+* [2012-11-15 Thu] Pumpin' my Resume Geek-Style  :liveBlog:resume:textResume:programming:
 :PROPERTIES:
 :CUSTOM_ID: pumpin-my-resume-geek-style
 :END:
