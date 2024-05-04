@@ -1,40 +1,56 @@
-"use strict";
-const toggleTableOfContentsHidden = function () {
-    const textTOC = document?.getElementById("text-table-of-contents");
+var toggleTableOfContentsHidden = function () {
+    var _a;
+    var textTOC = document === null || document === void 0 ? void 0 : document.getElementById("text-table-of-contents");
     if (textTOC !== null) {
-        const displayStyle = window?.getComputedStyle(textTOC)?.display;
+        var displayStyle = (_a = window === null || window === void 0 ? void 0 : window.getComputedStyle(textTOC)) === null || _a === void 0 ? void 0 : _a.display;
         if (displayStyle) {
             textTOC.style.display = displayStyle === "none" ? "inline" : "none";
         }
     }
 };
-const linkifyTableOfContents = function () {
-    const heading = document.querySelector("#table-of-contents h2");
+var linkifyTableOfContents = function () {
+    var heading = document.querySelector("#table-of-contents h2");
     if (heading != null) {
-        heading.innerHTML = '<a href="javascript:toggleTableOfContentsHidden()">Table of Contents</a>';
+        heading.innerHTML =
+            '<a href="javascript:toggleTableOfContentsHidden()">Table of Contents</a>';
     }
 };
-const orgDateToHumanDate = function () {
-    let timestamps = document.querySelectorAll(".timestamp");
-    let options = { weekday: "short", year: 'numeric', month: 'short', day: 'numeric' };
-    for (let timestamp of timestamps) {
-        timestamp.innerHTML = new Date(timestamp.innerHTML.substring(1, 11)).toLocaleDateString(undefined, options);
+var orgDateToHumanDate = function () {
+    var timestamps = document.querySelectorAll(".timestamp");
+    var options = {
+        weekday: "short",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+    };
+    for (var _i = 0, _a = Array.from(timestamps); _i < _a.length; _i++) {
+        var timestamp = _a[_i];
+        // timestamp.innerHTML is like [2024-01-01]
+        timestamp.innerHTML = new Date(parseInt(timestamp.innerHTML.substring(1, 5)), // year
+        parseInt(timestamp.innerHTML.substring(6, 8)) - 1, // monthIndex (0-based)
+        parseInt(timestamp.innerHTML.substring(9, 11))).toLocaleDateString(undefined, options);
     }
 };
-const linkifyTags = function () {
-    const tags = Array.from(document.querySelectorAll('.tag'));
-    for (const tagHeading of tags) {
-        for (let tag of tagHeading.children) {
-            let tagClassName = tag.className;
-            tag.addEventListener('click', () => filterByTag(tagClassName));
+var linkifyTags = function () {
+    var tags = Array.from(document.querySelectorAll(".tag"));
+    for (var _i = 0, tags_1 = tags; _i < tags_1.length; _i++) {
+        var tagHeading = tags_1[_i];
+        var _loop_1 = function (tag) {
+            var tagClassName = tag.className;
+            tag.addEventListener("click", function () { return filterByTag(tagClassName); });
+        };
+        for (var _a = 0, _b = Array.from(tagHeading.children); _a < _b.length; _a++) {
+            var tag = _b[_a];
+            _loop_1(tag);
         }
     }
 };
 // Contains all the active tags on the page.
-let activeTags = [];
+var activeTags = [];
 // Filter by the provided tag, pass empty string to show all.
-const filterByTag = function (filterTag) {
-    let articles = document.querySelectorAll(".outline-2");
+var filterByTag = function (filterTag) {
+    var _a, _b;
+    var articles = document.querySelectorAll(".outline-2");
     if (filterTag == "") {
         activeTags = [];
     }
@@ -45,18 +61,20 @@ const filterByTag = function (filterTag) {
     else {
         activeTags.push(filterTag);
     }
-    for (let article of articles) {
+    for (var _i = 0, _c = Array.from(articles); _i < _c.length; _i++) {
+        var article = _c[_i];
         if (filterTag == "") {
             article.hidden = false;
             continue;
         }
-        let tags = article.querySelector(".tag")?.children;
+        var tags = (_a = article.querySelector(".tag")) === null || _a === void 0 ? void 0 : _a.children;
         if (tags == undefined) {
             article.hidden = true;
             continue;
         }
         var shouldKeep = false;
-        for (let tag of tags) {
+        for (var _d = 0, _e = Array.from(tags); _d < _e.length; _d++) {
+            var tag = _e[_d];
             if (tag.className == filterTag) {
                 shouldKeep = true;
                 break;
@@ -64,7 +82,7 @@ const filterByTag = function (filterTag) {
         }
         article.hidden = !shouldKeep;
     }
-    let textTOC = document.getElementById("table-of-contents");
+    var textTOC = document.getElementById("table-of-contents");
     if (!textTOC) {
         console.log("Could not find table of contents element!");
         return;
@@ -84,9 +102,9 @@ const filterByTag = function (filterTag) {
         filterByTag("");
         tagFilter.remove();
     };
-    textTOC.parentNode?.insertBefore(tagFilter, textTOC);
+    (_b = textTOC.parentNode) === null || _b === void 0 ? void 0 : _b.insertBefore(tagFilter, textTOC);
 };
-const globalOnLoad = function () {
+var globalOnLoad = function () {
     linkifyTableOfContents();
     orgDateToHumanDate();
     linkifyTags();
