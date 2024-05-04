@@ -21,11 +21,11 @@
 
 When you work at Google, it scars you. Not in the way of harm but more like a tattoo; something one brandishes; something one is proud of - *pain turned into life experience*.
 
-
 My colleagues made me a strict and strong code reviewer. It is common for a new developer to get a review comment from me on nearly every line. I mean no harm 😊
 
 I once stole a talk from another Googler on doing good code reviews and presented it to my team. They became stricter with me in return 💯
 
+Deploying without code reviews is akin to constantly sprinting - you go fast initially but eventually tire out, slow down and burn out. Code reviews set a marathoner's pace and take you further with consistency and endurance.
 
 + Code reviews /*reduce fire-fighting*/
 + Code reviews encourage /*consistency and predictability*/
