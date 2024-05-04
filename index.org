@@ -35,7 +35,7 @@ I have been breaking systems for a long time, and written code for an even longe
 
 I do thorough reviews because I want to share the burden of those bugs with you. I want us to go far, not only with this piece of code today, but with the code we will write in the future.
 
-I previously talked about how testing makes you go /Faster/. I believe good code reviewing makes you go /Further/.
+I previously talked about how testing makes you go /Faster/. Good code reviewing makes you go /Further/.
 
 Review your own code before you send it off, review other's code with kindness and thoroughness. Don't break head (often).
 
