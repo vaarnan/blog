@@ -38,7 +38,7 @@ const orgDateToHumanDate = function () {
 const linkifyTags = function () {
   const tags = Array.from(document.querySelectorAll(".tag"));
   for (const tagHeading of tags) {
-    for (let tag of tagHeading.children) {
+    for (let tag of Array.from(tagHeading.children)) {
       let tagClassName = tag.className;
       tag.addEventListener("click", () => filterByTag(tagClassName));
     }
@@ -60,7 +60,7 @@ const filterByTag = function (filterTag: string) {
   } else {
     activeTags.push(filterTag);
   }
-  for (let article of articles) {
+  for (let article of Array.from(articles)) {
     if (filterTag == "") {
       (<HTMLElement>article).hidden = false;
       continue;
@@ -71,7 +71,7 @@ const filterByTag = function (filterTag: string) {
       continue;
     }
     var shouldKeep = false;
-    for (let tag of tags) {
+    for (let tag of Array.from(tags)) {
       if (tag.className == filterTag) {
         shouldKeep = true;
         break;
