@@ -27,17 +27,13 @@ My colleagues made me a strict and strong code reviewer. It is common for a new 
 I once stole a talk from another Googler on doing good code reviews and presented it to my team. They became stricter with me in return 💯
 
 
-#+BEGIN_QUOTE
-/Code is read much more often than it is written, so plan accordingly/ -- [[https://devblogs.microsoft.com/oldnewthing/20070406-00/?p=27343][The Old New Thing]]
-#+END_QUOTE
++ Code reviews /*reduce fire-fighting*/
++ Code reviews encourage /*consistency and predictability*/
++ Code reviews foster /*collaboration and culture*/
 
 I have been breaking systems for a long time, and written code for an even longer time. I have seen bugs like hidden rocks on an endless stream of runnable prose.
 
 I do thorough reviews because I want to share the burden of those bugs with you. I want us to go far, not only with this piece of code today, but with the code we will write in the future.
-
-+ Code reviews /*reduce fire-fighting*/
-+ Code reviews encourage /*consistency and predictability*/
-+ Code reviews foster /*collaboration and culture*/
 
 I previously talked about how testing makes you go /Faster/. Code reviews make you go /Further/.
 
