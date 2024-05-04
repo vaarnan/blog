@@ -25,10 +25,13 @@ const orgDateToHumanDate = function () {
     day: "numeric",
   };
 
-  for (let timestamp of timestamps) {
+  for (let timestamp of Array.from(timestamps)) {
+    // timestamp.innerHTML is like [2024-01-01]
     timestamp.innerHTML = new Date(
-      timestamp.innerHTML.split("-").reverse().join("-").substring(0, 10),
-    );
+      parseInt(timestamp.innerHTML.substring(1, 5)), // year
+      parseInt(timestamp.innerHTML.substring(6, 8)) - 1, // monthIndex (0-based)
+      parseInt(timestamp.innerHTML.substring(9, 11)), // day
+    ).toLocaleDateString(undefined, options);
   }
 };
 
