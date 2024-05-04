@@ -24,7 +24,7 @@ When you work at Google, it scars you. Not so much in the way of harm, but more 
 
 My colleagues made me a strict and strong code reviewer. It is common for a new developer to get a review comment from me on nearly every line. I mean no harm 😊
 
-I once stole a talk from another Googler on doing good code reviews and presented it to my team. They became stricter with me in return.
+I once stole a talk from another Googler on doing good code reviews and presented it to my team. They became stricter with me in return 💯
 
 
 #+BEGIN_QUOTE
@@ -37,7 +37,7 @@ I do thorough reviews because I want to share the burden of those bugs with you.
 
 I previously talked about how testing makes you go /Faster/. Code reviews make you go /Further/.
 
-Review your own code before you send it off, review other's code with kindness and thoroughness. Don't break head (often).
+Review your own code before you send it off; review other's code with kindness and thoroughness. Don't break head (often).
 
 /Comments on [[https://twitter.com/vaarnan][Twitter]]/
 
