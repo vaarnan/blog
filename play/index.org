@@ -368,10 +368,9 @@ Some basic things that were very helpful for me were,
 :CUSTOM_ID: tips-for-tirupati
 :END:
 
-#+caption: Tirupati Balaji
 #+ATTR_HTML: :class responsive
-[[./img/tirupati.jpg]]
-
+[[https://blog.vaarnan.com/img/tirupati.jpg]]
+/Tirupati Balaji/
 If you are crazy enough to want to visit the holy and revered Tirupati
 temple, here are a couple of tips for NRIs planning to go there. We
 drove up so the directions may not apply for people planning to walk up
@@ -401,9 +400,10 @@ the hill.
 :PROPERTIES:
 :CUSTOM_ID: laddus
 :END:
-#+caption: Tirupati Laddu
+
 #+ATTR_HTML: :class responsive
-[[./img/tirupati-laddu.jpg]]
+[[https://blog.vaarnan.com/img/tirupati-laddu.jpg]]
+/Tirupati Laddu/
 
 Each NRI ticket is eligible for 2 Laddus per person though the
 collection for the laddu is on the first level at the laddu collection
