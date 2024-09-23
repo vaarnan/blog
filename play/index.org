@@ -371,6 +371,7 @@ Some basic things that were very helpful for me were,
 #+ATTR_HTML: :class responsive
 [[https://blog.vaarnan.com/img/tirupati.jpg]]
 /Tirupati Balaji/
+
 If you are crazy enough to want to visit the holy and revered Tirupati
 temple, here are a couple of tips for NRIs planning to go there. We
 drove up so the directions may not apply for people planning to walk up
