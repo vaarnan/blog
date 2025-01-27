@@ -700,7 +700,7 @@ A final option would be to actually look to *get acquired* by other companies wh
 :CUSTOM_ID: the-android-dvorak-bug-ii
 :END:
 
-As from my [[https://blog.vaarnan.com/index.html#the-android-dvorak-bug][previous post]], after I had the emulator up and running, I had to locate the source code which produced the bug.
+As from my [[https://blog.vaarnan.com/the-android-dvorak-bug][previous post]], after I had the emulator up and running, I had to locate the source code which produced the bug.
 
 A simple *find* with the output of the file list piped to *vim* did the trick:
 
