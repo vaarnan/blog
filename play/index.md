@@ -374,6 +374,6 @@ Be prepared for long frustrating queues though anyone visiting Tirupati should b
   </svg>
 </center>
 <br>
-<center>Hello 👋 I am <strong>Vaarnan</strong>. See <a href="https://vaarnan.com">vaarnan.com</a> for a full bio.</center>
+<center>Hello 👋 I am <strong>Vaarnan</strong>. I build software to help humans. See <a href="https://vaarnan.com">vaarnan.com</a> for a full bio.</center>
 
 <!-- <center><a href="https://github.com/sponsors/vellvisher">sponsor this blog</a></center> -->
