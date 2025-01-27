@@ -92,7 +92,7 @@ Hopefully I make new and better mistakes in my future projects.
 id: coding-the-brew-puzzle-24th-december
 ---
 
-![](https://vaarnan.com/img/brew_1.jpeg){class="responsive"}
+![](https://vaarnan.com/img/brew_1.jpeg)
 
 Was catching up on the only newsletter I read everyday, the [Morning Brew](https://morningbrew.com/daily/r/?kid=7fe756), and came across their puzzle.
 

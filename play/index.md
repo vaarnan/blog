@@ -5,9 +5,6 @@ id: dive-or-die-4
 
 ## Croatia - Becoming a "proper diver"
 
-```{=org}
-#+ATTR_HTML: :class responsive
-```
 ![](https://vaarnan.com/img/diving_3.jpeg) *Cliff jumping spot in Dubrovnik, Croatia*
 
 I had signed up for a diving conservation trip with Blue Ventures, in Timor Leste (or East Timor pre-2002 rebrand) after being sold on it by a co-worker.
@@ -103,7 +100,7 @@ Contacts below:
 -   Hector Giourgis
     -   definitely does diving but was in Samos on a fishing trip
     -   +30 6974725459
-    -   hector`\under{}`{=latex}giourgis@hotmail.co.uk
+    -   hector_giourgis@hotmail.co.uk
 -   Europas Flowpyhs
     -   22710 76169
     -   ectozchios@yahoo.gz
@@ -120,7 +117,7 @@ id: dive-or-die-2
 
 ## Touchdown Maldives
 
-![](https://vaarnan.com/img/diving_2.jpeg){class="responsive"}
+![](https://vaarnan.com/img/diving_2.jpeg)
 
 The setup for my PADI Open Water course was far from ideal.
 
@@ -177,7 +174,7 @@ id: dive-or-die-1
 
 ## The seed
 
-![](https://vaarnan.com/img/diving_1.jpeg){class="responsive"}
+![](https://vaarnan.com/img/diving_1.jpeg)
 
 **Water is fear, fear is water.**
 
@@ -323,9 +320,6 @@ Some basic things that were very helpful for me were,
 id: tips-for-tirupati
 ---
 
-```{=org}
-#+ATTR_HTML: :class responsive
-```
 ![](https://vaarnan.com/img/tirupati.jpg) *Tirupati Balaji*
 
 If you are crazy enough to want to visit the holy and revered Tirupati temple, here are a couple of tips for NRIs planning to go there. We drove up so the directions may not apply for people planning to walk up the hill.
@@ -347,9 +341,6 @@ If you are crazy enough to want to visit the holy and revered Tirupati temple, h
 
 ## Laddus
 
-```{=org}
-#+ATTR_HTML: :class responsive
-```
 ![](https://vaarnan.com/img/tirupati-laddu.jpg) *Tirupati Laddu*
 
 Each NRI ticket is eligible for 2 Laddus per person though the collection for the laddu is on the first level at the laddu collection centre (not the ground level as some people might lead you to believe!).
