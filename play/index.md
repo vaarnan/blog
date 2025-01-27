@@ -346,3 +346,34 @@ If you are crazy enough to want to visit the holy and revered Tirupati temple, h
 Each NRI ticket is eligible for 2 Laddus per person though the collection for the laddu is on the first level at the laddu collection centre (not the ground level as some people might lead you to believe!).
 
 Be prepared for long frustrating queues though anyone visiting Tirupati should be steeled for that.
+
+# blog-about
+
+## Simplicity, Pseudorandomness and Technology
+
+<center>
+   <a href="https://github.com/vellvisher">github</a> · <a href="https://twitter.com/vaarnan">twitter</a> · <a href="https://linkedin.com/in/vaarnan">linkedin</a>
+</center>
+<br>
+<center>
+  <a href='http://passport.dance/'>
+    <img alt='Passport.Dance' width="40" height="40" src='https://passport.dance/apple-touch-icon.png'/>
+  </a><a href='https://wcs.london'>
+    <img alt='West Coast Swing London' width="40" height="40" src='https://wcs.london/apple-touch-icon.png'/>
+  </a><a href='https://intervalflow.com/'>
+    <img alt='Interval Flow' width="40" height="40" src='https://intervalflow.com/favicon.ico'/>
+  </a>
+</center>
+<br>
+<center>
+  <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="circleView">
+      <circle cx="75" cy="75" r="75" />
+    </clipPath>
+    <image href="https://vaarnan.com/img/profile-20240727.webp" width="150" height="150" clip-path="url(#circleView)" />
+  </svg>
+</center>
+<br>
+<center>Hello 👋 I am <strong>Vaarnan</strong>. See <a href="https://vaarnan.com">vaarnan.com</a> for a full bio.</center>
+
+<!-- <center><a href="https://github.com/sponsors/vellvisher">sponsor this blog</a></center> -->

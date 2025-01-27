@@ -1162,3 +1162,34 @@ Boy! Was I proved wrong and humbled gracefully! By the end of the talk, I was am
 Also, her answer to the question of making products which clash with the user's needs was extremely insightful in saying that we need to expand the definition of user from being just the customer to one where it includes everyone who actually uses your product and may or may not necessarily generate revenue for you.
 
 I think So-Young's talk was a fitting conclusion to today's session about "Triggering Innovation" and after such a successful start, I'm sure that CP2201 has a lot to give me (worth far more than its bid points) and I look forward to making the best of it this semester.
+
+# blog-about
+
+## Simplicity, Pseudorandomness and Technology
+
+<center>
+   <a href="https://github.com/vellvisher">github</a> · <a href="https://twitter.com/vaarnan">twitter</a> · <a href="https://linkedin.com/in/vaarnan">linkedin</a>
+</center>
+<br>
+<center>
+  <a href='http://passport.dance/'>
+    <img alt='Passport.Dance' width="40" height="40" src='https://passport.dance/apple-touch-icon.png'/>
+  </a><a href='https://wcs.london'>
+    <img alt='West Coast Swing London' width="40" height="40" src='https://wcs.london/apple-touch-icon.png'/>
+  </a><a href='https://intervalflow.com/'>
+    <img alt='Interval Flow' width="40" height="40" src='https://intervalflow.com/favicon.ico'/>
+  </a>
+</center>
+<br>
+<center>
+  <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="circleView">
+      <circle cx="75" cy="75" r="75" />
+    </clipPath>
+    <image href="https://vaarnan.com/img/profile-20240727.webp" width="150" height="150" clip-path="url(#circleView)" />
+  </svg>
+</center>
+<br>
+<center>Hello 👋 I am <strong>Vaarnan</strong>. See <a href="https://vaarnan.com">vaarnan.com</a> for a full bio.</center>
+
+<!-- <center><a href="https://github.com/sponsors/vellvisher">sponsor this blog</a></center> -->
